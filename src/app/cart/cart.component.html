@@ -6,7 +6,7 @@
 
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }} </span>
-  <span>{{ item.price | currency }}</span>
+  <span>{{ item.price }}</span>
 </div>
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
@@ -19,10 +19,10 @@
   </div>
 
  <div>
-    <label for="name">
+    <label for="date">
       Periodo
     </label>
-    <input id="name" type="text" formControlName="name">
+    <input id="date" type="text" formControlName="date">
   </div>
 
   <button class="button" type="submit">Alugar</button>
