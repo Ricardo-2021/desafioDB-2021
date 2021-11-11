@@ -10,13 +10,6 @@
 </a>
 </h3>
 
-  <p *ngIf="product.description">
-    Endereço: {{ product.description }}
-  </p>
-  <!-- <button (click)="share()">
-  Contato
-</button> -->
-
 <app-product-alerts
   [product]="product" 
   (notify)="onNotify()">
