@@ -45,6 +45,7 @@ export const products = [
     price: 'Diaria de R$ 120,00 contato (51)965852321',  
     description: 'Av. Assis Brasil, 2525, disponivel janeiro e fevereiro de 2022'
   },
+  
 ];
 
 
